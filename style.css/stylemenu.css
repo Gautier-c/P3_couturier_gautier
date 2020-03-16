@@ -381,28 +381,23 @@ main {
   font-family: 'Devonshire', sans-serif;
   font-size: 2.5em; }
 
+.subtitle {
+  display: flex; }
+
+.feature1 {
+  margin: auto;
+  width: 30%;
+  height: 40px;
+  margin-left: 0; }
+
+.feature2 {
+  margin: auto;
+  width: 30%;
+  height: 40px;
+  margin-right: 0; }
+
 h3 {
   font-size: 1.5em; }
-
-h3::before {
-  content: "";
-  display: inline-block;
-  width: 30%;
-  height: 50px;
-  background: url(../images/menu1/linea1.png) no-repeat;
-  background-size: 100%;
-  margin-right: 25px;
-  vertical-align: -30%; }
-
-h3::after {
-  content: "";
-  display: inline-block;
-  width: 30%;
-  height: 50px;
-  background: url(../images/menu1/linea2.png) no-repeat;
-  background-size: 100%;
-  margin-left: 25px;
-  vertical-align: -40%; }
 
 #section {
   text-align: center;
@@ -439,13 +434,79 @@ aside {
   text-align: center; }
 
 @media all and (max-width: 905px) {
-  h3::before {
+  .subtitle {
+    justify-content: center; }
+
+  .feature1 {
     display: none; }
 
-  h3::after {
+  .feature2 {
     display: none; } }
 @media all and (min-width: 1533px) {
   main {
     width: 50%; } }
+#h3-1 {
+  position: relative; }
+
+#article1:hover #h3-1::before {
+  animation: underline1 1s forwards ease-in-out; }
+
+#h3-1::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -10%;
+  background-color: #3D1319;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underline1 {
+  from {
+    width: 0; }
+  to {
+    width: 6.5ch; } }
+#h3-2 {
+  position: relative; }
+
+#article2:hover #h3-2::before {
+  animation: underline2 1s forwards ease-in-out; }
+
+#h3-2::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -5%;
+  background-color: #3D1319;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underline2 {
+  from {
+    width: 0; }
+  to {
+    width: 11ch; } }
+#h3-3 {
+  position: relative; }
+
+#article3:hover #h3-3::before {
+  animation: underline3 1s forwards ease-in-out; }
+
+#h3-3::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -5%;
+  background-color: #3D1319;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underline3 {
+  from {
+    width: 0; }
+  to {
+    width: 14ch; } }
 
 /*# sourceMappingURL=stylemenu.css.map */

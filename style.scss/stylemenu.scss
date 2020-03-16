@@ -37,33 +37,29 @@ main
     font-family: 'Devonshire', sans-serif;
     font-size: 2.5em;
 }
+.subtitle
+{
+    display: flex;
+}
+@mixin center{
+    margin:auto;
+    width:30%;
+    height: 40px;
+}
+.feature1
+{
+    @include center;
+    margin-left:0;
+}
+.feature2
+{
+    @include center;
+    margin-right: 0;
+}
 h3
 {
     font-size: 1.5em;
 }
-h3::before 
-{
-    content: "";
-    display: inline-block;
-    width: 30%;
-    height: 50px;
-    background: url(../images/menu1/linea1.png) no-repeat;
-    background-size: 100%;
-    margin-right: 25px;
-    vertical-align: -30%;
-}
-h3::after
-{
-    content: "";
-    display: inline-block;
-    width: 30%;
-    height: 50px;
-    background: url(../images/menu1/linea2.png) no-repeat;
-    background-size: 100%;
-    margin-left: 25px;
-    vertical-align: -40%;
-}
-
 
 #section
 {
@@ -105,4 +101,7 @@ aside
     font-size: 1.7em;
     text-align: center;
 }
-@include mediapage1
+@include mediapage1;
+@include underline-a1;
+@include underline-a2;
+@include underline-a3;
