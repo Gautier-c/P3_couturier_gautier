@@ -26,18 +26,18 @@
 
 @mixin mediapage1
 {
-    @media all and (max-width: 1225px)
+    @media all and (max-width: 905px)
     {
-        .feature1
+        h3::before
         {
             display: none;
         }
-        .feature2
+        h3::after
         {
             display: none;
         }
     }
-    @media all and (min-width: 1225px)
+    @media all and (min-width: 1533px)
     {
         main
         {

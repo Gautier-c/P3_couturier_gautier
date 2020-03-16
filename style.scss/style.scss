@@ -16,13 +16,13 @@
     }                                     
     header
     {
-        width: 100%;
+        position: relative;
         @include colors;
-        margin: auto;
-        display: flex;
         font-size: 3em;
         font-weight: bold;
         height: 150px;
+        display: flex;
+        width: 100%;
     }
     #title
     {
@@ -101,9 +101,10 @@ nav
 }
 #icon-1
 {
-    margin-top: 40%;
+    margin-top: 35%;
     height: 55px;
     width: 55px;
+    margin-bottom: 5px;
 }
 #name1
 {
@@ -227,25 +228,4 @@ nav
     text-decoration: none;
     color: #FDCB46;
 }
-@media all and (min-width: 1225px)                  /*media queries*/
-    {
-        nav
-        {
-            display:grid;
-            grid-template-columns: auto auto;
-        }
-        .grid-item
-        {
-            width:400px;
-            height: 500px;
-        }
-        #name1
-        {
-            margin-top: 15px;
-        }
-        #infuture
-        {
-            width: 50%;
-        }
-
-    }
+@include mediaqueries;

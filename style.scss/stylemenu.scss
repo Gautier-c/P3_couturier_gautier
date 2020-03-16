@@ -1,74 +1,80 @@
-@import "../style.scss/_global.scss";
-
+@import "_global.scss";
+@import "style.scss";
 @include headerfooter;
 
-body
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.title
-    {
-        text-decoration: none;
-        color: #FDCB46;
-    }
 main
 {
-    max-width: 90%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
 }
-.menu1
+#title
+{
+    color:#FDCB46;
+}
+.icon
+{
+    padding-top: 5px;
+}
+#icon-title
+{
+    height: 80px;
+    width: 80px;
+}
+#menu1
 {
     text-align: center;
     font-size: 1.8em;
     font-family: 'Montserrat', sans-serif ;
     color:#353535;
     font-weight: bold;
-    margin-top: 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.icon
-{
-    padding-top: 5px;
-}
-.icon-title
-{
-    height: 80px;
-    width: 80px;
-}
-.title
-{
-    display: flex;
-    justify-content: center;
-}
-
-.head
+#name-menu
 {
     font-family: 'Devonshire', sans-serif;
-    text-align: center;
+    font-size: 2.5em;
 }
 h3
 {
-    color:#3D1319;
+    font-size: 1.5em;
 }
-.section
+h3::before 
 {
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    background: url(../images/menu1/linea1.png) no-repeat;
+    background-size: 100%;
+    margin-right: 25px;
+    vertical-align: -30%;
+}
+h3::after
+{
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    background: url(../images/menu1/linea2.png) no-repeat;
+    background-size: 100%;
+    margin-left: 25px;
+    vertical-align: -40%;
+}
+
+
+#section
+{
+    text-align: center;
     color:#3D1319;
     font-size: 1.7em;
     background-color: #FCDFDB;
-    margin-bottom: 140px;
-    margin-top: 25px;
+    font-family: 'Caveat', sans-serif ;
     padding-left: 5%;
     padding-right: 5%;
-}
-.name-menu
-{
-    font-size: 2em;
-    margin-top: -50px;
-}
-article
-{
-    font-family: 'Caveat', sans-serif ;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .line
 {
@@ -80,48 +86,23 @@ article
 {
     font-weight: bold;
 }
-
 aside
 {
     font-family: 'Devonshire', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 7%;
 }
-.icon-aside
+#icon-aside
 {
     width: 45px;
     height: 45px;
 }
-.name-menu-aside
+#name-menu-aside
 {
     margin-left: 25px;
     font-size: 1.7em;
     text-align: center;
 }
-.legal
-{
-    text-decoration: none;
-    color: #FDCB46;
-}
-
-@mixin center{
-    margin:auto;
-    width:30%;
-    height: 40px;
-}
-.feature1
-{
-    @include center;
-    margin-left:0;
-}
-.feature2
-{
-    @include center;
-    margin-right: 0;
-}
-@include mediapage1;
-
-@include underline-a1;
-@include underline-a2;
-@include underline-a3;
+@include mediapage1
