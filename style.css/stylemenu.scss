@@ -400,15 +400,20 @@ main {
 h3 {
   font-size: 1.5em; }
 
+ /*
+#section1
+{
+    text-align: center;
+    color:#3D1319;
+    font-size: 1.7em;
+    background-color: #FCDFDB;
+    font-family: 'Caveat', sans-serif ;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+}*/
 #section1 {
-  background-color: #FCDFDB;
-  color: #3D1319;
-  font-family: "Caveat";
-  text-align: center;
-  font-size: 1.7em;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 100px; }
+  background-color: red; }
 
 .line {
   display: flex;
@@ -434,6 +439,18 @@ aside {
   font-size: 1.7em;
   text-align: center; }
 
+@media all and (max-width: 905px) {
+  .subtitle {
+    justify-content: center; }
+
+  .feature1 {
+    display: none; }
+
+  .feature2 {
+    display: none; } }
+@media all and (min-width: 1533px) {
+  main {
+    width: 50%; } }
 #h3-1 {
   position: relative; }
 
@@ -498,6 +515,17 @@ aside {
   to {
     width: 14ch; } }
 /*PAGE2*/
+/* 
+#section2
+{
+    text-align: center;
+    font-size: 1.7em;
+    background-color: #FFF5FE;
+    font-family: 'Playfair Display', sans-serif ;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+}*/
 #name-menu2 {
   font-family: "Lobster", sans-serif;
   font-size: 2.5em;
@@ -506,17 +534,6 @@ aside {
   -webkit-text-fill-color: transparent;
   margin: 35px;
   margin-bottom: 50px; }
-
-#section2 {
-  background-color: #FFF5FE;
-  color: black;
-  font-family: "Playfair Display";
-  text-align: center;
-  font-size: 1.7em;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 100px;
-  font-size: 1em; }
 
 #article2-1 {
   color: #C67412; }
@@ -530,91 +547,4 @@ aside {
 #section2 .price {
   font-weight: unset; }
 
-.line2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding-left: 100px;
-  padding-right: 100px; }
-
-#h3-21 {
-  position: relative; }
-
-#article2-1:hover #h3-21::before {
-  animation: underlineb1 1s forwards ease-in-out; }
-
-#h3-21::before {
-  content: "";
-  width: 0;
-  height: 5px;
-  bottom: -5px;
-  left: -2%;
-  background-color: #C67412;
-  border-radius: 20px;
-  position: absolute; }
-
-@keyframes underlineb1 {
-  from {
-    width: 0; }
-  to {
-    width: 19.5ch; } }
-#h3-22 {
-  position: relative; }
-
-#article2-2:hover #h3-22::before {
-  animation: underlineb2 1s forwards ease-in-out; }
-
-#h3-22::before {
-  content: "";
-  width: 0;
-  height: 5px;
-  bottom: -5px;
-  left: -2%;
-  background-color: #A56799;
-  border-radius: 20px;
-  position: absolute; }
-
-@keyframes underlineb2 {
-  from {
-    width: 0; }
-  to {
-    width: 15ch; } }
-#h3-23 {
-  position: relative; }
-
-#article2-3:hover #h3-23::before {
-  animation: underlineb3 1s forwards ease-in-out; }
-
-#h3-23::before {
-  content: "";
-  width: 0;
-  height: 5px;
-  bottom: -5px;
-  left: -2%;
-  background-color: #6E4CCC;
-  border-radius: 20px;
-  position: absolute; }
-
-@keyframes underlineb3 {
-  from {
-    width: 0; }
-  to {
-    width: 17.5ch; } }
-@media all and (max-width: 905px) {
-  .subtitle {
-    justify-content: center; }
-
-  .feature1 {
-    display: none; }
-
-  .feature2 {
-    display: none; }
-
-  .line2 {
-    padding-left: 0px;
-    padding-right: 0px; } }
-@media all and (min-width: 1533px) {
-  main {
-    width: 50%; } }
-
-/*# sourceMappingURL=stylemenu.css.map */
+/*# sourceMappingURL=stylemenu.scss.map */

@@ -1,7 +1,7 @@
 @import "_global.scss";
 @import "style.scss";
 @include headerfooter;
-
+/*PAGE1*/
 main
 {
     width: 85%;
@@ -60,17 +60,20 @@ h3
 {
     font-size: 1.5em;
 }
-
-#section
+@mixin sections($color,$background-color,$font-family)
 {
+    background-color:$background-color;
+    color: $color;
+    font-family: $font-family;
     text-align: center;
-    color:#3D1319;
     font-size: 1.7em;
-    background-color: #FCDFDB;
-    font-family: 'Caveat', sans-serif ;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 100px;
+}
+#section1
+{
+    @include sections(#3D1319,#FCDFDB,'Caveat')
 }
 .line
 {
@@ -101,7 +104,52 @@ aside
     font-size: 1.7em;
     text-align: center;
 }
-@include mediapage1;
 @include underline-a1;
 @include underline-a2;
 @include underline-a3;
+
+/*PAGE2*/
+
+#name-menu2
+{
+    font-family: 'Lobster', sans-serif ;
+    font-size: 2.5em;
+    background: linear-gradient(to right,#C77412,#8F5AFF );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 35px;
+    margin-bottom: 50px;
+}
+#section2
+{
+    @include sections(black,#FFF5FE,'Playfair Display');
+    font-size:1em;
+}
+#article2-1
+{
+    color:#C67412;
+}
+#article2-2
+{
+    color:#A56799;
+}
+#article2-3
+{
+    color:#6E4CCC;
+}
+#section2 .price
+{
+    font-weight: unset;
+}
+.line2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@include underline-b1;
+@include underline-b2;
+@include underline-b3;
+@include mediapage1;

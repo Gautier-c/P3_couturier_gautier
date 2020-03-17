@@ -168,14 +168,14 @@
 }
                                 /*UNDERLINE PAGE2*/
 @mixin underline-b1{
-    .h3-1
+    #h3-21
     {
         position: relative;
     }
-    .h3-1:hover::before{
+    #article2-1:hover #h3-21::before{
         animation: underlineb1 1s forwards ease-in-out;
     }
-    .h3-1::before{
+    #h3-21::before{
         content: "";
         width: 0;
         height: 5px;
@@ -195,14 +195,14 @@
     }
 }
 @mixin underline-b2{
-    .h3-2
+    #h3-22
     {
         position: relative;
     }
-    .h3-2:hover::before{
+    #article2-2:hover #h3-22::before{
         animation: underlineb2 1s forwards ease-in-out;
     }
-    .h3-2::before{
+    #h3-22::before{
         content: "";
         width: 0;
         height: 5px;
@@ -217,19 +217,19 @@
             width:0
         }
         to{
-            width:14.5ch
+            width:15ch
         }
     }
 }
 @mixin underline-b3{
-    .h3-3
+    #h3-23
     {
         position: relative;
     }
-    .h3-3:hover::before{
+    #article2-3:hover #h3-23::before{
         animation: underlineb3 1s forwards ease-in-out;
     }
-    .h3-3::before{
+    #h3-23::before{
         content: "";
         width: 0;
         height: 5px;
