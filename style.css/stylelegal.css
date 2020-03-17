@@ -107,7 +107,7 @@ nav {
   height: 100%;
   background-color: #FCDFDB; }
   #item1:hover {
-    animation: zoom 1s forwards; }
+    animation: zoom 1s reverse; }
 @keyframes zoom {
   0% {
     transform: scale(1);
@@ -137,7 +137,7 @@ nav {
   height: 100%;
   background-color: #FFF5FE; }
   #item2:hover {
-    animation: zoom 1s forwards; }
+    animation: zoom 1s reverse; }
 @keyframes zoom {
   0% {
     transform: scale(1);
@@ -164,7 +164,7 @@ nav {
   height: 100%;
   background-color: #F9F9F9; }
   #item3:hover {
-    animation: zoom 1s forwards; }
+    animation: zoom 1s reverse; }
 @keyframes zoom {
   0% {
     transform: scale(1);
@@ -189,7 +189,7 @@ nav {
 #item4 {
   height: 100%; }
   #item4:hover {
-    animation: zoom 1s forwards; }
+    animation: zoom 1s reverse; }
 @keyframes zoom {
   0% {
     transform: scale(1);

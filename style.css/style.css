@@ -103,16 +103,14 @@ nav {
 
 #item1 {
   height: 100%;
-  background-color: #FCDFDB; }
-  #item1:hover {
-    animation: zoom 1s forwards; }
-@keyframes zoom {
-  0% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1.5);
-    opacity: 0.75; } }
+  background-color: #FCDFDB;
+  transition: transform 1s, opacity 1s; }
+
+#item1:hover {
+  transform: scale(1.5);
+  opacity: 0.75;
+  transition: all 1s; }
+
 #icon-1 {
   margin-top: 35%;
   height: 55px;
@@ -133,16 +131,14 @@ nav {
 
 #item2 {
   height: 100%;
-  background-color: #FFF5FE; }
-  #item2:hover {
-    animation: zoom 1s forwards; }
-@keyframes zoom {
-  0% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1.5);
-    opacity: 0.75; } }
+  background-color: #FFF5FE;
+  transition: transform 1s, opacity 1s; }
+
+#item2:hover {
+  transform: scale(1.5);
+  opacity: 0.75;
+  transition: all 1s; }
+
 #name2 {
   margin-top: 50%;
   font-family: 'Lobster', sans-serif;
@@ -160,16 +156,14 @@ nav {
 
 #item3 {
   height: 100%;
-  background-color: #F9F9F9; }
-  #item3:hover {
-    animation: zoom 1s forwards; }
-@keyframes zoom {
-  0% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1.5);
-    opacity: 0.75; } }
+  background-color: #F9F9F9;
+  transition: transform 1s, opacity 1s; }
+
+#item3:hover {
+  transform: scale(1.5);
+  opacity: 0.75;
+  transition: all 1s; }
+
 #name3 {
   margin-top: 50%;
   font-family: "Dancing Script", sans-serif;
@@ -185,16 +179,14 @@ nav {
   color: #0887FB; }
 
 #item4 {
-  height: 100%; }
-  #item4:hover {
-    animation: zoom 1s forwards; }
-@keyframes zoom {
-  0% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1.5);
-    opacity: 0.75; } }
+  height: 100%;
+  transition: transform 1s, opacity 1s; }
+
+#item4:hover {
+  transform: scale(1.5);
+  opacity: 0.75;
+  transition: all 1s; }
+
 #name4 {
   margin-top: 50%;
   font-family: 'Kaushan Script', sans-serif;
