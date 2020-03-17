@@ -152,4 +152,51 @@ aside
 @include underline-b1;
 @include underline-b2;
 @include underline-b3;
+
+
+
+/*PAGE 3*/
+#name-menu3
+{
+    font-family: 'Dancing script', sans-serif ;
+    font-size: 2.5em;
+    background: linear-gradient(to right,#0228DD,#ACDBFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 35px;
+    margin-bottom: 50px;
+}
+#section3
+{
+    @include sections(black,#EDEFEF,'Caveat');
+    font-size:1.3em;
+}
+.price2
+{
+    font-weight: bold;
+}
+@include underline-c1;
+@include underline-c2;
+@include underline-c3;
+
+
+/*PAGE 4*/
+#name-menu4
+{
+    font-family: 'Kaushan script', sans-serif ;
+    font-size: 2.5em;
+    background: linear-gradient(to right,#3D923A,#BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 35px;
+    margin-bottom: 50px;
+}
+#section4
+{
+    @include sections(black,#FDFFFD,'Caveat');
+    font-size:1.3em;
+}
+@include underline-d1;
+@include underline-d2;
+@include underline-d3;
 @include mediapage1;

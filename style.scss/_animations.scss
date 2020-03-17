@@ -250,14 +250,14 @@
 }
 
 @mixin underline-c1{                /*UNDERLINE PAGE3*/
-    .h3-1
+    #h3-31
     {
         position: relative;
     }
-    .h3-1:hover::before{
+    #article3-1:hover #h3-31::before{
         animation: underlinec1 1s forwards ease-in-out;
     }
-    .h3-1::before{
+    #h3-31::before{
         content: "";
         width: 0;
         height: 5px;
@@ -277,14 +277,14 @@
     }
 }
 @mixin underline-c2{
-    .h3-2
+    #h3-32
     {
         position: relative;
     }
-    .h3-2:hover::before{
+    #article3-2:hover #h3-32::before{
         animation: underlinec2 1s forwards ease-in-out;
     }
-    .h3-2::before{
+    #h3-32::before{
         content: "";
         width: 0;
         height: 5px;
@@ -304,14 +304,14 @@
     }
 }
 @mixin underline-c3{
-    .h3-3
+    #h3-33
     {
         position: relative;
     }
-    .h3-3:hover::before{
+    #article3-3:hover #h3-33::before{
         animation: underlinec3 1s forwards ease-in-out;
     }
-    .h3-3::before{
+    #h3-33::before{
         content: "";
         width: 0;
         height: 5px;
@@ -332,14 +332,14 @@
 }
 
 @mixin underline-d1{                /*ANIMATIONS PAGE4*/
-    .h3-1
+    #h3-41
     {
         position: relative;
     }
-    .h3-1:hover::before{
+    #article4-1:hover #h3-41::before{
         animation: underlined1 1s forwards ease-in-out;
     }
-    .h3-1::before{
+    #h3-41::before{
         content: "";
         width: 0;
         height: 5px;
@@ -359,14 +359,14 @@
     }
 }
 @mixin underline-d2{
-    .h3-2
+    #h3-42
     {
         position: relative;
     }
-    .h3-2:hover::before{
+    #article4-2:hover #h3-42::before{
         animation: underlined2 1s forwards ease-in-out;
     }
-    .h3-2::before{
+    #h3-42::before{
         content: "";
         width: 0;
         height: 5px;
@@ -386,14 +386,14 @@
     }
 }
 @mixin underline-d3{
-    .h3-3
+    #h3-43
     {
         position: relative;
     }
-    .h3-3:hover::before{
+    #article4-3:hover #h3-43::before{
         animation: underlined3 1s forwards ease-in-out;
     }
-    .h3-3::before{
+    #h3-43::before{
         content: "";
         width: 0;
         height: 5px;

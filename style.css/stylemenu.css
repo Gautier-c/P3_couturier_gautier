@@ -600,6 +600,179 @@ aside {
     width: 0; }
   to {
     width: 17.5ch; } }
+/*PAGE 3*/
+#name-menu3 {
+  font-family: "Dancing script", sans-serif;
+  font-size: 2.5em;
+  background: linear-gradient(to right, #0228DD, #ACDBFD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 35px;
+  margin-bottom: 50px; }
+
+#section3 {
+  background-color: #EDEFEF;
+  color: black;
+  font-family: "Caveat";
+  text-align: center;
+  font-size: 1.7em;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+  font-size: 1.3em; }
+
+.price2 {
+  font-weight: bold; }
+
+/*UNDERLINE PAGE3*/
+#h3-31 {
+  position: relative; }
+
+#article3-1:hover #h3-31::before {
+  animation: underlinec1 1s forwards ease-in-out; }
+
+#h3-31::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -2%;
+  background-color: #0228DD;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underlinec1 {
+  from {
+    width: 0; }
+  to {
+    width: 16.5ch; } }
+#h3-32 {
+  position: relative; }
+
+#article3-2:hover #h3-32::before {
+  animation: underlinec2 1s forwards ease-in-out; }
+
+#h3-32::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -2%;
+  background-color: #0670F3;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underlinec2 {
+  from {
+    width: 0; }
+  to {
+    width: 15.5ch; } }
+#h3-33 {
+  position: relative; }
+
+#article3-3:hover #h3-33::before {
+  animation: underlinec3 1s forwards ease-in-out; }
+
+#h3-33::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -2%;
+  background-color: #229DF9;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underlinec3 {
+  from {
+    width: 0; }
+  to {
+    width: 15ch; } }
+/*PAGE 4*/
+#name-menu4 {
+  font-family: "Kaushan script", sans-serif;
+  font-size: 2.5em;
+  background: linear-gradient(to right, #3D923A, #BEFF7F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 35px;
+  margin-bottom: 50px; }
+
+#section4 {
+  background-color: #FDFFFD;
+  color: black;
+  font-family: "Caveat";
+  text-align: center;
+  font-size: 1.7em;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+  font-size: 1.3em; }
+
+/*ANIMATIONS PAGE4*/
+#h3-41 {
+  position: relative; }
+
+#article4-1:hover #h3-41::before {
+  animation: underlined1 1s forwards ease-in-out; }
+
+#h3-41::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -5%;
+  background-color: #7FC860;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underlined1 {
+  from {
+    width: 0; }
+  to {
+    width: 7ch; } }
+#h3-42 {
+  position: relative; }
+
+#article4-2:hover #h3-42::before {
+  animation: underlined2 1s forwards ease-in-out; }
+
+#h3-42::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -5%;
+  background-color: #7FC860;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underlined2 {
+  from {
+    width: 0; }
+  to {
+    width: 13.5ch; } }
+#h3-43 {
+  position: relative; }
+
+#article4-3:hover #h3-43::before {
+  animation: underlined3 1s forwards ease-in-out; }
+
+#h3-43::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  bottom: -5px;
+  left: -5%;
+  background-color: #7FC860;
+  border-radius: 20px;
+  position: absolute; }
+
+@keyframes underlined3 {
+  from {
+    width: 0; }
+  to {
+    width: 15ch; } }
 @media all and (max-width: 905px) {
   .subtitle {
     justify-content: center; }
