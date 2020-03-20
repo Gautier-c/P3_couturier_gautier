@@ -45,6 +45,14 @@
             padding-left: 0px;
             padding-right: 0px;
         }
+        #name-menu1::before
+        {
+            display: none;
+        }
+        #name-menu1
+        {
+            padding-top: 40px;
+        }
     }
     @media all and (min-width: 1533px)
     {

@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   margin: 0; }
 
-header {
+.site-header {
   position: relative;
   background-color: #579C87;
   color: #FDCB46;
@@ -19,7 +19,7 @@ header {
 #title {
   margin: auto; }
 
-footer {
+.site-footer {
   background-color: #579C87;
   color: #FDCB46;
   font-family: "Montserrat", sans-serif;
@@ -87,14 +87,7 @@ main {
 #title {
   color: #FDCB46; }
 
-.icon {
-  padding-top: 5px; }
-
-#icon-title {
-  height: 80px;
-  width: 80px; }
-
-#menu1 {
+#menu-title {
   text-align: center;
   font-size: 1.8em;
   font-family: "Montserrat", sans-serif;
@@ -104,11 +97,23 @@ main {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-#name-menu {
-  font-family: 'Devonshire', sans-serif;
-  font-size: 2.5em; }
+#name-menu1 {
+  padding-top: 80px;
+  font-family: "Devonshire", sans-serif;
+  font-size: 2.5em;
+  margin: 35px;
+  margin-bottom: 50px;
+  position: relative; }
 
-.subtitle {
+#name-menu1::before {
+  content: url(../images/menu1/iconelanote.png);
+  position: absolute;
+  transform: scale(0.6);
+  top: -50px;
+  left: 40%;
+  right: 40%; }
+
+.header-article {
   display: flex; }
 
 .feature1 {
@@ -144,7 +149,7 @@ h3 {
 .price {
   font-weight: bold; }
 
-aside {
+#footer-menu {
   font-family: 'Devonshire', sans-serif;
   display: flex;
   justify-content: center;
@@ -228,6 +233,9 @@ aside {
   to {
     width: 14ch; } }
 /*PAGE2*/
+.section-header {
+  font-size: 1em; }
+
 #name-menu2 {
   font-family: "Lobster", sans-serif;
   font-size: 2.5em;
@@ -515,7 +523,13 @@ aside {
 
   .line2 {
     padding-left: 0px;
-    padding-right: 0px; } }
+    padding-right: 0px; }
+
+  #name-menu1::before {
+    display: none; }
+
+  #name-menu1 {
+    padding-top: 40px; } }
 @media all and (min-width: 1533px) {
   main {
     width: 50%; } }

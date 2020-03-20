@@ -15,7 +15,7 @@
         flex-direction: column;
         margin: 0;
     }                                     
-    header
+    .site-header
     {
         position: relative;
         @include colors;
@@ -29,7 +29,7 @@
     {
         margin: auto;
     }
-    footer
+    .site-footer
     {
         @include colors;
         display: flex;

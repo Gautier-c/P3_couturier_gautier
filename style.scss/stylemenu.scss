@@ -1,4 +1,4 @@
-@import "_global.scss";
+@import '_global.scss';
 @include headerfooter;
 /*PAGE1*/
 main
@@ -12,16 +12,7 @@ main
 {
     color:#FDCB46;
 }
-.icon
-{
-    padding-top: 5px;
-}
-#icon-title
-{
-    height: 80px;
-    width: 80px;
-}
-#menu1
+#menu-title
 {
     text-align: center;
     font-size: 1.8em;
@@ -32,12 +23,25 @@ main
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#name-menu
+#name-menu1
 {
-    font-family: 'Devonshire', sans-serif;
+    padding-top: 80px;
+    font-family: 'Devonshire', sans-serif ;
     font-size: 2.5em;
+    margin: 35px;
+    margin-bottom: 50px;
+    position: relative;
 }
-.subtitle
+#name-menu1::before
+{
+    content: url(../images/menu1/iconelanote.png);
+    position:absolute;
+    transform: scale(0.6);
+    top:-50px;
+    left:40%;
+    right: 40%;
+}
+.header-article
 {
     display: flex;
 }
@@ -85,7 +89,7 @@ h3
 {
     font-weight: bold;
 }
-aside
+#footer-menu
 {
     font-family: 'Devonshire', sans-serif;
     display: flex;
@@ -114,7 +118,10 @@ aside
 @include underline-a3;
 
 /*PAGE2*/
-
+.section-header
+{
+    font-size: 1em;
+}
 #name-menu2
 {
     font-family: 'Lobster', sans-serif ;
