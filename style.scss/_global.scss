@@ -1,12 +1,13 @@
 @import "_animations.scss";
 @import "_mediaqueries.scss";
-
+/*COULEURS SITE*/
 @mixin colors
 {
     background-color: #579C87;
     color: #FDCB46;
     font-family: 'Montserrat', sans-serif ;
 }
+/*HEADER ET FOOTER COMMUN*/
 @mixin headerfooter
 {      
     body
@@ -16,7 +17,7 @@
         margin: 0;
     }                                     
     .site-header
-    {
+     {
         position: relative;
         @include colors;
         font-size: 3em;
@@ -60,4 +61,44 @@
         color: #FDCB46;
         text-decoration: none;
     }
+}
+/*PAGE ACCUEIL*/
+@mixin name($margin-top,$font-family,$font-size,)
+{
+    margin-top:$margin-top;
+    font-family:$font-family;
+    font-size:$font-size;
+}
+@mixin menu($font-family,$font-size,$color,$margin-top)
+{
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $color;
+    margin-top: $margin-top;
+}
+
+@mixin sections($color,$background-color,$font-family)
+{
+    background-color:$background-color;
+    color: $color;
+    font-family: $font-family;
+    text-align: center;
+    font-size: 1.7em;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+}
+
+/*PAGE MENUS*/
+@mixin center{
+    margin:auto;
+    width:30%;
+    height: 40px;
+}
+@mixin menuproperties($font-family,$font-size,$margin,$margin-bottom)
+{
+    font-family: $font-family;
+    font-size: $font-size;
+    margin:$margin;
+    margin-bottom: $margin-bottom;
 }

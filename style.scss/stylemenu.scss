@@ -1,6 +1,6 @@
 @import '_global.scss';
 @include headerfooter;
-/*PAGE1*/
+
 main
 {
     width: 85%;
@@ -23,13 +23,11 @@ main
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/*PAGE1*/
 #name-menu1
 {
+    @include menuproperties('Devonshire',2.5em,35px,50px);
     padding-top: 80px;
-    font-family: 'Devonshire', sans-serif ;
-    font-size: 2.5em;
-    margin: 35px;
-    margin-bottom: 50px;
     position: relative;
 }
 #name-menu1::before
@@ -45,11 +43,6 @@ main
 {
     display: flex;
 }
-@mixin center{
-    margin:auto;
-    width:30%;
-    height: 40px;
-}
 .feature1
 {
     @include center;
@@ -63,17 +56,6 @@ main
 h3
 {
     font-size: 1.5em;
-}
-@mixin sections($color,$background-color,$font-family)
-{
-    background-color:$background-color;
-    color: $color;
-    font-family: $font-family;
-    text-align: center;
-    font-size: 1.7em;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 100px;
 }
 #section1
 {
@@ -108,11 +90,6 @@ h3
     font-size: 1.7em;
     text-align: center;
 }
-#legal
-{
-    text-decoration: none;
-    color: #FDCB46;
-}
 @include underline-a1;
 @include underline-a2;
 @include underline-a3;
@@ -120,13 +97,10 @@ h3
 /*PAGE2*/
 #name-menu2
 {
-    font-family: 'Lobster', sans-serif ;
-    font-size: 2.5em;
+    @include menuproperties('Lobster',2.5em,35px,50px);
     background: linear-gradient(to right,#C77412,#8F5AFF );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 35px;
-    margin-bottom: 50px;
 }
 #section2
 {
@@ -166,13 +140,10 @@ h3
 /*PAGE 3*/
 #name-menu3
 {
-    font-family: 'Dancing script', sans-serif ;
-    font-size: 2.5em;
+    @include menuproperties('Dancing script',2.5em,35px,50px);
     background: linear-gradient(to right,#0228DD,#ACDBFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 35px;
-    margin-bottom: 50px;
 }
 #section3
 {
@@ -191,13 +162,10 @@ h3
 /*PAGE 4*/
 #name-menu4
 {
-    font-family: 'Kaushan script', sans-serif ;
-    font-size: 2.5em;
+    @include menuproperties('Kaushan script',2.5em,35px,50px);
     background: linear-gradient(to right,#3D923A,#BEFF7F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 35px;
-    margin-bottom: 50px;
 }
 #section4
 {
@@ -207,4 +175,11 @@ h3
 @include underline-d1;
 @include underline-d2;
 @include underline-d3;
+
+#legal
+{
+    text-decoration: none;
+    color: #FDCB46;
+}
+
 @include mediapage1;

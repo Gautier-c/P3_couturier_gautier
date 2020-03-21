@@ -1,5 +1,9 @@
 /*UNDERLINE PAGE1*/
 /*UNDERLINE PAGE2*/
+/*COULEURS SITE*/
+/*HEADER ET FOOTER COMMUN*/
+/*PAGE ACCUEIL*/
+/*PAGE MENUS*/
 body {
   display: flex;
   flex-direction: column;
@@ -77,7 +81,6 @@ a:link {
   color: #FDCB46;
   text-decoration: none; }
 
-/*PAGE1*/
 main {
   width: 85%;
   display: flex;
@@ -97,12 +100,13 @@ main {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+/*PAGE1*/
 #name-menu1 {
-  padding-top: 80px;
-  font-family: "Devonshire", sans-serif;
+  font-family: "Devonshire";
   font-size: 2.5em;
   margin: 35px;
   margin-bottom: 50px;
+  padding-top: 80px;
   position: relative; }
 
 #name-menu1::before {
@@ -164,10 +168,6 @@ h3 {
   margin-left: 25px;
   font-size: 1.7em;
   text-align: center; }
-
-#legal {
-  text-decoration: none;
-  color: #FDCB46; }
 
 #h3-1 {
   position: relative; }
@@ -234,13 +234,13 @@ h3 {
     width: 14ch; } }
 /*PAGE2*/
 #name-menu2 {
-  font-family: "Lobster", sans-serif;
+  font-family: "Lobster";
   font-size: 2.5em;
+  margin: 35px;
+  margin-bottom: 50px;
   background: linear-gradient(to right, #C77412, #8F5AFF);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 35px;
-  margin-bottom: 50px; }
+  -webkit-text-fill-color: transparent; }
 
 #section2 {
   background-color: #FFF5FE;
@@ -337,13 +337,13 @@ h3 {
     width: 17.5ch; } }
 /*PAGE 3*/
 #name-menu3 {
-  font-family: "Dancing script", sans-serif;
+  font-family: "Dancing script";
   font-size: 2.5em;
+  margin: 35px;
+  margin-bottom: 50px;
   background: linear-gradient(to right, #0228DD, #ACDBFD);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 35px;
-  margin-bottom: 50px; }
+  -webkit-text-fill-color: transparent; }
 
 #section3 {
   background-color: #EDEFEF;
@@ -425,13 +425,13 @@ h3 {
     width: 15ch; } }
 /*PAGE 4*/
 #name-menu4 {
-  font-family: "Kaushan script", sans-serif;
+  font-family: "Kaushan script";
   font-size: 2.5em;
+  margin: 35px;
+  margin-bottom: 50px;
   background: linear-gradient(to right, #3D923A, #BEFF7F);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 35px;
-  margin-bottom: 50px; }
+  -webkit-text-fill-color: transparent; }
 
 #section4 {
   background-color: #FDFFFD;
@@ -508,6 +508,10 @@ h3 {
     width: 0; }
   to {
     width: 15ch; } }
+#legal {
+  text-decoration: none;
+  color: #FDCB46; }
+
 @media all and (max-width: 905px) {
   .subtitle {
     justify-content: center; }

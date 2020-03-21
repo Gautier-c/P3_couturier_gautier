@@ -30,10 +30,9 @@ nav
         height: 100%;
         background-color:#FCDFDB;
         transition: transform 1s, opacity 1s;
-        &:hover{
-            transform: scale(1.5);
-            opacity: 0.75;
-            transition: all 1s;
+        &:hover
+            {
+            @include zoom;
             }
         #icon-1
         {
@@ -44,16 +43,12 @@ nav
         }
         #name1
         {
-            margin-top: 0px;
-            font-family: 'Devonshire', sans-serif;
+            @include name(0px,'Devonshire',2em);
             color: #3D1319;
-            font-size: 2em;
-            }
+        }
         #menu1
         {
-            font-family: 'Sriracha', sans-serif ;
-            color: #3D1319;
-            font-size: 2em;
+            @include menu('Sriracha',2em,#3D1319,0);
             margin-bottom: 40%;
         }
     }
@@ -64,26 +59,19 @@ nav
         transition: transform 1s, opacity 1s;
         &:hover
         {
-            transform: scale(1.5);
-            opacity: 0.75;
-            transition: all 1s;
+            @include zoom;
         }
         #name2
         {
-            margin-top: 50%;
-            font-family: 'Lobster', sans-serif;
-            font-size: 1.5em;
+            @include name(45%,'Lobster',1.5em);
             background: linear-gradient(to right,#C77412,#8F5AFF );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         #menu2
         {
-            margin-top: 10%;
-            font-family: 'Playfair Display', sans-serif;
-            font-size: 2em;
+            @include menu('Playfair Display',2em,#C77412,10%);
             font-weight: bold;
-            color: #C77412;
         }
     }
     #item3
@@ -93,25 +81,18 @@ nav
         transition: transform 1s, opacity 1s;
         &:hover
         {
-            transform: scale(1.5);
-            opacity: 0.75;
-            transition: all 1s;
+            @include zoom;
         }
         #name3
         {
-            margin-top: 50%;
-            font-family: 'Dancing Script', sans-serif ;
-            font-size: 1.8em;
+            @include name(45%,'Dancing Script',1.8em);
             background: linear-gradient(to right,#0023DB, #0887FB);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         #menu3
         {
-            font-family: 'Caveat', sans-serif;
-            font-size: 2.5em;
-            margin-top: 10%;
-            color:#0887FB;
+            @include menu('Caveat',2.5em,#0887FB,10%)
         }
     }
     #item4
@@ -120,25 +101,18 @@ nav
         transition: transform 1s, opacity 1s;
         &:hover
         {
-            transform: scale(1.5);
-            opacity: 0.75;
-            transition: all 1s;
+            @include zoom;
         }
         #name4
         {
-            margin-top: 50%;
-            font-family: 'Kaushan Script', sans-serif;
-            font-size: 1.8em;
+            @include name(45%,'Kaushan Script',1.8em);
             background: linear-gradient(to right,#3E923A,#BEFF7F );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         #menu4
         {
-            font-family: 'Caveat', sans-serif;
-            font-size: 2.5em;
-            margin-top: 10%;
-            color:#72BF56;
+            @include menu('Caveat',2.5em,#72BF56,10%)
         }
     }
 }

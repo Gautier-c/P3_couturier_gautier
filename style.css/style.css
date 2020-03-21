@@ -112,13 +112,14 @@ nav {
       margin-bottom: 5px; }
     .grid-item #item1 #name1 {
       margin-top: 0px;
-      font-family: 'Devonshire', sans-serif;
-      color: #3D1319;
-      font-size: 2em; }
-    .grid-item #item1 #menu1 {
-      font-family: "Sriracha", sans-serif;
-      color: #3D1319;
+      font-family: "Devonshire";
       font-size: 2em;
+      color: #3D1319; }
+    .grid-item #item1 #menu1 {
+      font-family: "Sriracha";
+      font-size: 2em;
+      color: #3D1319;
+      margin-top: 0;
       margin-bottom: 40%; }
   .grid-item #item2 {
     height: 100%;
@@ -129,18 +130,18 @@ nav {
       opacity: 0.75;
       transition: all 1s; }
     .grid-item #item2 #name2 {
-      margin-top: 50%;
-      font-family: 'Lobster', sans-serif;
+      margin-top: 45%;
+      font-family: "Lobster";
       font-size: 1.5em;
       background: linear-gradient(to right, #C77412, #8F5AFF);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     .grid-item #item2 #menu2 {
-      margin-top: 10%;
-      font-family: 'Playfair Display', sans-serif;
+      font-family: "Playfair Display";
       font-size: 2em;
-      font-weight: bold;
-      color: #C77412; }
+      color: #C77412;
+      margin-top: 10%;
+      font-weight: bold; }
   .grid-item #item3 {
     height: 100%;
     background-color: #F9F9F9;
@@ -150,17 +151,17 @@ nav {
       opacity: 0.75;
       transition: all 1s; }
     .grid-item #item3 #name3 {
-      margin-top: 50%;
-      font-family: "Dancing Script", sans-serif;
+      margin-top: 45%;
+      font-family: "Dancing Script";
       font-size: 1.8em;
       background: linear-gradient(to right, #0023DB, #0887FB);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     .grid-item #item3 #menu3 {
-      font-family: 'Caveat', sans-serif;
+      font-family: "Caveat";
       font-size: 2.5em;
-      margin-top: 10%;
-      color: #0887FB; }
+      color: #0887FB;
+      margin-top: 10%; }
   .grid-item #item4 {
     height: 100%;
     transition: transform 1s, opacity 1s; }
@@ -169,17 +170,17 @@ nav {
       opacity: 0.75;
       transition: all 1s; }
     .grid-item #item4 #name4 {
-      margin-top: 50%;
-      font-family: 'Kaushan Script', sans-serif;
+      margin-top: 45%;
+      font-family: "Kaushan Script";
       font-size: 1.8em;
       background: linear-gradient(to right, #3E923A, #BEFF7F);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     .grid-item #item4 #menu4 {
-      font-family: 'Caveat', sans-serif;
+      font-family: "Caveat";
       font-size: 2.5em;
-      margin-top: 10%;
-      color: #72BF56; }
+      color: #72BF56;
+      margin-top: 10%; }
 
 .name {
   margin: auto; }
@@ -212,7 +213,7 @@ nav {
     background-color: #FDCB46; }
   16% {
     background-color: #FDCB46;
-    opacity: 1; }
+    opacity: 0.85; }
   33% {
     opacity: 0.5;
     background-color: #FDCB46; }
