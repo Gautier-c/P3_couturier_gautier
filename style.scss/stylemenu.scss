@@ -26,7 +26,7 @@ main
 /*PAGE1*/
 #name-menu1
 {
-    @include menuproperties('Devonshire',2.5em,35px,50px);
+    @include menuproperties('Devonshire',2em);
     padding-top: 80px;
     position: relative;
 }
@@ -97,7 +97,7 @@ h3
 /*PAGE2*/
 #name-menu2
 {
-    @include menuproperties('Lobster',2.5em,35px,50px);
+    @include menuproperties('Lobster',2.5em);
     background: linear-gradient(to right,#C77412,#8F5AFF );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -140,7 +140,7 @@ h3
 /*PAGE 3*/
 #name-menu3
 {
-    @include menuproperties('Dancing script',2.5em,35px,50px);
+    @include menuproperties('Dancing script',2.5em);
     background: linear-gradient(to right,#0228DD,#ACDBFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -162,7 +162,7 @@ h3
 /*PAGE 4*/
 #name-menu4
 {
-    @include menuproperties('Kaushan script',2.5em,35px,50px);
+    @include menuproperties('Kaushan script',2.5em);
     background: linear-gradient(to right,#3D923A,#BEFF7F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

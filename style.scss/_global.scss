@@ -76,7 +76,7 @@
     color: $color;
     margin-top: $margin-top;
 }
-
+/*PAGE MENUS*/
 @mixin sections($color,$background-color,$font-family)
 {
     background-color:$background-color;
@@ -88,17 +88,15 @@
     padding-right: 5%;
     margin-bottom: 100px;
 }
-
-/*PAGE MENUS*/
 @mixin center{
     margin:auto;
     width:30%;
     height: 40px;
 }
-@mixin menuproperties($font-family,$font-size,$margin,$margin-bottom)
+@mixin menuproperties($font-family,$font-size)
 {
     font-family: $font-family;
     font-size: $font-size;
-    margin:$margin;
-    margin-bottom: $margin-bottom;
+    margin:35px;
+    margin-bottom: 50px;
 }
