@@ -63,6 +63,12 @@
     }
 }
 /*PAGE ACCUEIL*/
+@mixin itemproperties($background-color)
+{
+    height: 100%;
+    background-color: $background-color;
+    transition: transform 1s, opacity 1s;
+}
 @mixin name($margin-top,$font-family,$font-size,)
 {
     margin-top:$margin-top;
