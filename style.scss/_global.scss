@@ -106,3 +106,21 @@
     margin:35px;
     margin-bottom: 50px;
 }
+@mixin lineargradient2
+{
+    background: linear-gradient(to right,#C77412,#8F5AFF );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin lineargradient3
+{
+    background: linear-gradient(to right,#0228DD,#ACDBFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin lineargradient4
+{
+    background: linear-gradient(to right,#3D923A,#BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

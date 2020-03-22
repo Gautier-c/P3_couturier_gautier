@@ -99,9 +99,7 @@ h3
 #name-menu2
 {
     @include menuproperties('Lobster',2.5em);
-    background: linear-gradient(to right,#C77412,#8F5AFF );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include lineargradient2;
 }
 #section2
 {
@@ -142,9 +140,7 @@ h3
 #name-menu3
 {
     @include menuproperties('Dancing script',2.5em);
-    background: linear-gradient(to right,#0228DD,#ACDBFD);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include lineargradient3;
 }
 #section3
 {
@@ -164,9 +160,7 @@ h3
 #name-menu4
 {
     @include menuproperties('Kaushan script',2.5em);
-    background: linear-gradient(to right,#3D923A,#BEFF7F);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include lineargradient4;
 }
 #section4
 {

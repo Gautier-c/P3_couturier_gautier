@@ -60,9 +60,7 @@ nav
         #name2
         {
             @include name(45%,'Lobster',1.5em);
-            background: linear-gradient(to right,#C77412,#8F5AFF );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            @include lineargradient2;
         }
         #menu2
         {
@@ -80,9 +78,7 @@ nav
         #name3
         {
             @include name(45%,'Dancing Script',1.8em);
-            background: linear-gradient(to right,#0023DB, #0887FB);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            @include lineargradient3;
         }
         #menu3
         {
@@ -99,9 +95,7 @@ nav
         #name4
         {
             @include name(45%,'Kaushan Script',1.8em);
-            background: linear-gradient(to right,#3E923A,#BEFF7F );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            @include lineargradient4;
         }
         #menu4
         {
