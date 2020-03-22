@@ -28,8 +28,9 @@
 {
     @media all and (max-width: 905px)
     {
-        .subtitle
+        .header-article
         {
+            display: flex;
             justify-content: center;
         }
         .feature1
